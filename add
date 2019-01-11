@@ -1,1 +1,1 @@
-git submodule add $1/$2
+git submodule add $1 $2
