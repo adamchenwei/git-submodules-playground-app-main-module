@@ -1,0 +1,10 @@
+headCount=$1
+message=$2
+branchName=`./getBranchName`
+
+git reset --soft HEAD~$headCount
+git commit -m "$message" -n
+
+#force commit and push to current branch
+./fp
+
