@@ -1,0 +1,3 @@
+[submodule "sub-modules"]
+	path = sub-modules
+	url = git@github.com:adamchenwei/git-submodules-playground-app-sub-module-1.git
