@@ -9,3 +9,6 @@ echo '------ summary END----';
 echo 'adding submodule...';
 git submodule add $moduleGitUrl $moduleDirectory
 echo 'submodule added';
+
+echo "commit the module info for $1 ... "
+git commit -m "Added submodule $moduleGitUrl"
