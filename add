@@ -1,1 +1,11 @@
-git submodule add $1 $2
+
+moduleGitUrl=$1
+moduleDirectory=$2
+
+echo '------ summary BEG----';
+echo $moduleDirectory $moduleGitUrl
+echo '------ summary END----';
+
+echo 'adding submodule...';
+git submodule add $moduleGitUrl $moduleDirectory
+echo 'submodule added';
