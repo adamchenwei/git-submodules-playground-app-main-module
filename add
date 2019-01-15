@@ -1,4 +1,4 @@
-
+# add a submodule by url and folder directory customized
 moduleGitUrl=$1
 moduleDirectory=$2
 

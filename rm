@@ -1,4 +1,4 @@
-
+# remove a submodule by folder directory
 echo "Getting ready to remove $1 from the repo as submodule"
 echo "WARNNING: Before start, ensure your directory are free of any changes in submodules folder."
 
